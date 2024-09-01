@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- Header   -->
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="end"
+        >
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/notification"
+            android:layout_gravity="center"
+            android:layout_marginRight="10sp"
+            />
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/bakong"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>

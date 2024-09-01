@@ -1,0 +1,74 @@
+<!-- res/values/styles.xml -->
+<resources>
+    <declare-styleable name="CustomTheme">
+        <attr name="themes_bg" format="reference" />
+        <attr name="account_icon" format="reference" />
+        <attr name="card_icon" format="reference" />
+        <attr name="payment_icon" format="reference" />
+        <attr name="scan_icon" format="reference" />
+        <attr name="favorite_icon" format="reference" />
+        <attr name="transfer_icon" format="reference" />
+        <attr name="goverment_icon" format="reference" />
+        <attr name="e_cash_icon" format="reference" />
+        <attr name="service_icon" format="reference" />
+        <attr name="new_account_icon" format="reference" />
+        <attr name="schedule_icon" format="reference" />
+        <attr name="inv_friend_icon" format="reference" />
+        <attr name="introducting_background" format="reference" />
+        <attr name="default_label_fade_bg" format="reference" />
+    </declare-styleable>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+
+        <!-- ====  Properties   ====  -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#03DAC5</item>
+        <item name="themes_bg">@drawable/themes_bg_v1</item>
+        <item name="account_icon">@drawable/account_icon_v1</item>
+        <item name="card_icon">@drawable/cards_icon_v1</item>
+        <item name="payment_icon">@drawable/payments_icon_v1</item>
+        <item name="scan_icon">@drawable/scan_icon_v1</item>
+        <item name="favorite_icon">@drawable/favorite_icon_v1</item>
+        <item name="transfer_icon">@drawable/transfer_icon_v1</item>
+        <item name="goverment_icon">@drawable/goverment_icon_v1</item>
+        <item name="e_cash_icon">@drawable/e_cash_icon_v1</item>
+        <item name="service_icon">@drawable/service_icon_v1</item>
+        <item name="new_account_icon">@drawable/new_account_icon_v1</item>
+        <item name="schedule_icon">@drawable/schedule_icon_v1</item>
+        <item name="inv_friend_icon">@drawable/inv_friend_icon_v1</item>
+        <item name="introducting_background">@drawable/introducting_background_v1</item>
+        <item name="default_label_fade_bg">@drawable/default_label_fade_bg_v1</item>
+
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+
+        <!-- ====  Properties   ====  -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#03DAC5</item>
+        <item name="themes_bg">@drawable/themes_bg_v2</item>
+        <item name="account_icon">@drawable/account_icon_v2</item>
+        <item name="card_icon">@drawable/card_icon_v2</item>
+        <item name="payment_icon">@drawable/payments_icon_v2</item>
+        <item name="scan_icon">@drawable/scan_icon_v2</item>
+        <item name="favorite_icon">@drawable/favorite_icon_v2</item>
+        <item name="transfer_icon">@drawable/transfer_icon_v2</item>
+        <item name="goverment_icon">@drawable/goverment_icon_v2</item>
+        <item name="e_cash_icon">@drawable/e_cash_icon_v2</item>
+        <item name="service_icon">@drawable/service_icon_v2</item>
+        <item name="new_account_icon">@drawable/new_account_icon_v2</item>
+        <item name="schedule_icon">@drawable/schedule_icon_v2</item>
+        <item name="inv_friend_icon">@drawable/inv_friend_icon_v2</item>
+        <item name="introducting_background">@drawable/introducting_background_v2</item>
+        <item name="default_label_fade_bg">@drawable/default_label_fade_bg_v2</item>
+    </style>
+</resources>

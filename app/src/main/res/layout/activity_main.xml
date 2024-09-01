@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="?attr/themes_bg"
+    android:padding="15dp"
+    >
+
+    <!--Notification Layout-->
+    <include layout="@layout/notification_layout" />
+    <!--Profile Layout-->
+    <include layout="@layout/profile_header" />
+    <!--Introduction Face Phone-->
+    <include layout="@layout/introduct_face_phone_layout" />
+    <!--Amount Dashboard layout -->
+    <include layout="@layout/amount_dashboard_layout" />
+    <!--Options layout-->
+    <include layout="@layout/menu_options_layout" />
+
+</LinearLayout>

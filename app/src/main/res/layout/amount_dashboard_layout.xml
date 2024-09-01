@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:orientation="vertical"
+    android:background="@drawable/fade_layout"
+    android:layout_marginTop="20dp"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/amount_dashboard_bg"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$10.34"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:src="@drawable/hide"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10sp"
+                android:background="@drawable/icon_fade_bg"
+                android:padding="5sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5sp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Defaults"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:background="?attr/default_label_fade_bg"
+                android:padding="5sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Savings USD"
+                android:textSize="15sp"
+                android:textColor="#B6B6B4"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15sp"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="25sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:rotation="-35"
+                    android:layout_gravity="center"
+                    android:src="@drawable/receive_money_icon" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Receive Money"
+                    android:textSize="15sp"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10sp"
+                >
+
+                <ImageView
+                    android:layout_width="25sp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5sp"
+                    android:rotation="35"
+                    android:rotationY="180"
+                    android:src="@drawable/receive_money_icon" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Send Money"
+                    android:textSize="15sp"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
